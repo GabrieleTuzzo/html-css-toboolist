@@ -9,7 +9,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-color: gainsboro;
+    background-color: rgb(245, 245, 245);
 }
 
 main {
@@ -59,7 +59,7 @@ li {
 
 section.buttons-section {
     padding: 12px 12px 10px 50px;
-    border-bottom: 1px solid gainsboro;
+    border-bottom: 1px solid rgb(245, 245, 245);
 }
 
 section.list-section {
