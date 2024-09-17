@@ -66,6 +66,21 @@ section.list-section {
     padding: 35px 12px 20px 50px;
 }
 
+/* BUTTONS STYLE */
+button {
+    background-color: rgb(80, 156, 255);
+    border: 1px solid rgb(80, 156, 255);
+    padding: 6px 8px;
+    border-radius: 6px;
+    color: white;
+}
+
+button:disabled {
+    background-color: white;
+    border: 1px solid gainsboro;
+    color: gainsboro;
+}
+
 /* TASK TAGS */
 
 span.tag {
