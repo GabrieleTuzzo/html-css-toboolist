@@ -94,3 +94,15 @@ span.tag.sales {
 span.tag.mobile {
     background-color: palevioletred;
 }
+
+/* LIST ICONS */
+
+li.checkmark::before {
+    content: '\2714';
+    color: green;
+}
+
+li.cross::before {
+    content: '\2716';
+    color: red;
+}
