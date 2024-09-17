@@ -112,12 +112,27 @@ span.tag.mobile {
 
 /* LIST ICONS */
 
-li.checkmark::before {
-    content: '\2714';
-    color: green;
+li.icon::before {
+    font-size: 0.8em;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 18px;
+    border-width: 1px;
+    border-style: solid;
 }
 
-li.cross::before {
-    content: '\2716';
+li.icon.checkmark::before {
+    content: "\2713";
+    color: green;
+    border-color: green;
+}
+
+li.icon.crossmark::before {
+    content: "\2715";
     color: red;
+    border-color: red;
 }
