@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+}
+
+/* HEADER STYLE */
+.header-main {
+    background-color: white;
+    padding: 12px 12px 12px 25px;
+}
+
+.header-main * {
+    display: inline;
+    vertical-align: middle;
+}
+
