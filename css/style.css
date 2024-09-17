@@ -54,7 +54,7 @@ h2 {
 }
 
 li {
-    padding-bottom: 10px;
+    padding: 12px 0;
 }
 
 section.buttons-section {
@@ -103,16 +103,21 @@ span.tag.recruiting {
 }
 
 span.tag.sales {
-    background-color: greenyellow;
+    background-color: rgb(120, 199, 3);
 }
 
 span.tag.mobile {
     background-color: palevioletred;
 }
 
+span.tag.website {
+    background-color: purple;
+}
+
 /* LIST ICONS */
 
 li.icon::before {
+    margin-right: 8px;
     font-size: 0.8em;
     display: inline-block;
     width: 18px;
