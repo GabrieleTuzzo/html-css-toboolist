@@ -12,6 +12,29 @@ body {
     background-color: gainsboro;
 }
 
+main {
+    padding: 25px;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.br-12 {
+    border-radius: 12px;
+}
+
+.bgclr-white {
+    background-color: white;
+}
+
 /* HEADER STYLE */
 .header-main {
     background-color: white;
@@ -23,3 +46,22 @@ body {
     vertical-align: middle;
 }
 
+/* MAIN STYLE */
+
+h2 {
+    display: inline;
+    font-size: 1.2em;
+}
+
+li {
+    padding-bottom: 8px;
+}
+
+section.buttons-section {
+    padding: 12px 12px 10px 50px;
+    border-bottom: solid gainsboro;
+}
+
+section.list-section {
+    padding: 35px 12px 10px 50px;
+}
