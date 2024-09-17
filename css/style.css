@@ -13,7 +13,7 @@ body {
 }
 
 main {
-    padding: 25px;
+    padding: 30px 25px;
 }
 
 ul, ol {
@@ -54,14 +54,43 @@ h2 {
 }
 
 li {
-    padding-bottom: 8px;
+    padding-bottom: 10px;
 }
 
 section.buttons-section {
     padding: 12px 12px 10px 50px;
-    border-bottom: solid gainsboro;
+    border-bottom: 1px solid gainsboro;
 }
 
 section.list-section {
-    padding: 35px 12px 10px 50px;
+    padding: 35px 12px 20px 50px;
+}
+
+/* TASK TAGS */
+
+span.tag {
+    color: white;
+    border-radius: 12px;
+    font-size: 0.6em;
+    padding: 6px 8px;
+}
+
+span.tag.editorial {
+    background-color: cadetblue;
+}
+
+span.tag.q1-goals {
+    background-color: brown;
+}
+
+span.tag.recruiting {
+    background-color: orange;
+}
+
+span.tag.sales {
+    background-color: greenyellow;
+}
+
+span.tag.mobile {
+    background-color: palevioletred;
 }
