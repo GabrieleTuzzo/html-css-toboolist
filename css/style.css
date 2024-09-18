@@ -38,7 +38,7 @@ ul, ol {
 /* HEADER STYLE */
 .header-main {
     background-color: white;
-    padding: 12px 12px 12px 25px;
+    padding: 12px 25px;
 }
 
 .header-main * {
@@ -57,13 +57,20 @@ li {
     padding: 12px 0;
 }
 
+section.buttons-section, section.list-section {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 section.buttons-section {
-    padding: 12px 12px 10px 50px;
+    padding-top: 12px;
+    padding-bottom: 10px;
     border-bottom: 2px solid rgb(245, 245, 245);
 }
 
 section.list-section {
-    padding: 35px 12px 20px 50px;
+    padding-top: 35px;
+    padding-bottom: 20px;
 }
 
 /* BUTTONS STYLE */
@@ -133,11 +140,9 @@ li.icon::before {
 li.icon.checkmark::before {
     content: "\2713";
     color: green;
-    border-color: green;
 }
 
 li.icon.crossmark::before {
     content: "\2715";
     color: red;
-    border-color: red;
 }
